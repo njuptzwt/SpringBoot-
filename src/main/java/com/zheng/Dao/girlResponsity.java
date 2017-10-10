@@ -9,5 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 public interface girlResponsity extends JpaRepository<girl, Integer>{
     public List<girl> findByAge(Integer age);
-
+    public List<girl> findByCupsize(String cupsize);
 }
